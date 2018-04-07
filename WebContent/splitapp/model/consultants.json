@@ -1,0 +1,53 @@
+{
+	"Consultants": [
+		{
+			"Consultant_ID": 1,
+			"Consultant_Name": "SJ",
+			"Consultant_Surname": "Mamba",
+			"Consultant_email": "SJ.Mamba@CodeDynamic.com",
+			"Consultant_Cell": "+27856358742",
+			"Consultant_Admin": 1
+		},
+		{
+			"Consultant_ID": 2,
+			"Consultant_Name": "Ngoni",
+			"Consultant_Surname": "Mujuru",
+			"Consultant_email": "Ngoni.Mujuru@CodeDynamic.com",
+			"Consultant_Cell": "+27836871515",
+			"Consultant_Admin": 0
+		},
+		{
+			"Consultant_ID": 3,
+			"Consultant_Name": "Johan",
+			"Consultant_Surname": "de Waal",
+			"Consultant_email": "Johan.deWaal@CodeDynamic.com",
+			"Consultant_Cell": "+27838845796",
+			"Consultant_Admin": 0
+		},
+		{
+			"Consultant_ID": 4,
+			"Consultant_Name": "Tatenda",
+			"Consultant_Surname": "Mafunga",
+			"Consultant_email": "Tatenda.Mafunga@CodeDynamic.com",
+			"Consultant_Cell": "+27835532564",
+			"Consultant_Admin": 0
+		},
+		{
+			"Consultant_ID": 5,
+			"Consultant_Name": "Hulisani",
+			"Consultant_Surname": "Mudimeli",
+			"Consultant_email": "Huli.Mudimeli@CodeDynamic.com",
+			"Consultant_Cell": "+27825657845",
+			"Consultant_Admin": 0
+		},
+		{
+			"Consultant_ID": 6,
+			"Consultant_Name": "Stephen",
+			"Consultant_Surname": "Munro",
+			"Consultant_email": "Stephen.Munro@CodeDynamic.com",
+			"Consultant_Cell": "+27823651346",
+			"Consultant_Admin": 0
+		}
+		
+	]
+}

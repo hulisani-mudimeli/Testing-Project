@@ -1,0 +1,42 @@
+{
+	"Projects": [
+		{
+			"Project_ID": 1,
+			"Project_Name": "Fraud Detector",
+			"Client_ID": 4,
+			"Project_DEscription": "The system monitors accounting records and must alert the the company of fraudulant activity. This system must run both a web and mobile interface.",
+			"Project_Deadline": "2018-11-05",
+			"Project_OnSite": 0,
+			"Project_Members": [
+						{ "Consultant_ID": 1 },
+						{ "Consultant_ID": 2 }
+							]
+						
+			
+		},
+		{
+			"Project_ID": 2,
+			"Project_Name": "Stock Tracker",
+			"Client_ID": 2,
+			"Project_DEscription": "This system must monitor all stock levels within the wholesale distributors as well as the details of these stock items. It should allow supervisors to find wher stock is available and to send requestx to move stock to another location.",
+			"Project_Deadline": "2018-10-23",
+			"Project_OnSite": 1,
+			"Project_Members": [
+						{ "Consultant_ID": 2 },
+						{ "Consultant_ID": 3 }
+							]
+		},
+		{
+			"Project_ID": 3,
+			"Project_Name": "Auto Payments",
+			"Client_ID": 3,
+			"Project_DEscription": "A system that is able to process automatic salary payments to employees and manage administration documentation in this regard.",
+			"Project_Deadline": "2019-01-16",
+			"Project_OnSite": 1,
+			"Project_Members": [
+						{ "Consultant_ID": 5 },
+						{ "Consultant_ID": 6 }
+							]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		
+
+		<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m, sap.ui.commons"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- add sap.ui.table,sap.ui.ux3 and/or other libraries to 'data-sap-ui-libs' if required -->
+
+		<script>
+		sap.ui.localResources("splitapp");
+		
+		
+		
+		//Define splitapp
+		var app = new sap.m.SplitApp("splitApp",{mode:sap.m.SplitAppMode.ShowHideMode});
+		//Define Master page
+		var master = sap.ui.view({id:"masterPage", viewName:"splitapp.view.master", type:sap.ui.core.mvc.ViewType.XML});
+		//Define Detail page
+		var detail = sap.ui.view({id:"detailPage", viewName:"splitapp.view.detail", type:sap.ui.core.mvc.ViewType.XML});
+		var detail2 = sap.ui.view({id:"detail2Page", viewName:"splitapp.view.detail2", type:sap.ui.core.mvc.ViewType.XML});
+		//Add master and detail to content
+		app.addMasterPage(master);
+		app.addDetailPage(detail);
+		app.addDetailPage(detail2);
+		
+		
+		//Place App in content
+		app.placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
